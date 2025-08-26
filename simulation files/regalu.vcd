@@ -1,0 +1,121 @@
+$date
+	Sat Aug 16 14:46:06 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module regalu_tb $end
+$var wire 1 ! zero $end
+$var wire 32 " result [31:0] $end
+$var wire 32 # read_data2 [31:0] $end
+$var wire 32 $ read_data1 [31:0] $end
+$var reg 3 % alu_ctrl [2:0] $end
+$var reg 1 & clk $end
+$var reg 4 ' read_reg1 [3:0] $end
+$var reg 4 ( read_reg2 [3:0] $end
+$var reg 1 ) reg_write $end
+$var reg 1 * rst $end
+$var reg 32 + write_data [31:0] $end
+$var reg 4 , write_reg [3:0] $end
+$scope module a1 $end
+$var wire 3 - alu_ctrl [2:0] $end
+$var wire 32 . b [31:0] $end
+$var wire 32 / a [31:0] $end
+$var reg 32 0 result [31:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$scope module rf $end
+$var wire 1 & clk $end
+$var wire 32 1 read_data1 [31:0] $end
+$var wire 32 2 read_data2 [31:0] $end
+$var wire 4 3 read_reg1 [3:0] $end
+$var wire 4 4 read_reg2 [3:0] $end
+$var wire 1 ) reg_write $end
+$var wire 1 * rst $end
+$var wire 32 5 write_data [31:0] $end
+$var wire 4 6 write_reg [3:0] $end
+$var integer 32 7 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+1*
+0)
+bx (
+bx '
+0&
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#5
+b10000 7
+1&
+#10
+0&
+1)
+b1010 +
+b1010 5
+b1 ,
+b1 6
+0*
+#15
+1&
+#20
+0&
+b10100 +
+b10100 5
+b10 ,
+b10 6
+1)
+#25
+1&
+#30
+0!
+b11110 "
+b11110 0
+0&
+b0 %
+b0 -
+b10100 #
+b10100 .
+b10100 2
+b10 (
+b10 4
+b1010 $
+b1010 /
+b1010 1
+b1 '
+b1 3
+0)
+#35
+1&
+#40
+b11111111111111111111111111110110 "
+b11111111111111111111111111110110 0
+0&
+b1 %
+b1 -
+#45
+1&
+#50
+0&
