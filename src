@@ -1,0 +1,7 @@
+cpu.v → Top-level CPU integration
+reg_alu.v
+pc.v → Program Counter
+instr_mem.v → Instruction Memory
+regfile.v → Register File
+alu.v → Arithmetic Logic Unit
+
