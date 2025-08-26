@@ -1,3 +1,24 @@
+verilog-cpu-core/
+│── src/               # Source Verilog files
+│    ├── alu.v
+│    ├── regfile.v
+│    ├── pc.v
+│    ├── instruction_mem.v
+│    └── cpu.v
+│
+│── testbench/         # Testbench files
+│    ├── alu_test.v
+│    ├── regfile_test.v
+│    └── cpu_test.v
+│
+│── docs/              # Diagrams and notes
+│    └── cpu_block.png
+│
+│── README.md
+
+
+
+
 # 19-bit Verilog CPU Core
 
 This project is a **19-bit CPU core** implemented in Verilog HDL.  
