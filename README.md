@@ -38,9 +38,9 @@ Simulation is done using **Icarus Verilog**, and results are viewed using **GTKW
 ---
 
 ## Project Structure
-src/ → All Verilog source files
-testbench/ → Testbench files for simulation
-simulationfile/ → waveforms
+- src/ → All Verilog source files
+- testbench/ → Testbench files for simulation
+- simulationfile/ → waveforms
 
 ---
 
